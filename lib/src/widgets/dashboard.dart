@@ -351,9 +351,9 @@ class _DashboardState<T extends DashboardItem> extends State<Dashboard<T>>
       _maxExtend += widget.padding.vertical;
     }
 
-    if (_maxExtend > 0) {
+    // if (_maxExtend > 0) {
       offset.applyContentDimensions(0, _maxExtend.clamp(0, double.maxFinite));
-    }
+    // }
   }
 
   ///
